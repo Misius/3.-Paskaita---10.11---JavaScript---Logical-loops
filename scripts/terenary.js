@@ -5,7 +5,8 @@ console.log(terenary.js);
 let sentence = '';
 let name = 'Mike';
 let town = 'Kaunas';
-let isStudent = true;
+let isStudent = false;
+let dirbaArStudijuoja = isStudent === true ? 'studijuoja' : 'dirba';
 
 /*
 Sukurti kintamąjį isStudent (boolean), sukurti kintamąjį Name - įrašom vardą. Sukurti town ir įrašysim miestą.
@@ -19,12 +20,13 @@ Mike gyvena Kaunas ir Dirba
 */
 sentence = `${name} gyvena ${town} ir`;
 
-if (isStudent === true) {
-    sentence = `${sentence} studijuoja`;
-} else {
-    sentence = sentence + 'dirba'
-}
+// if (isStudent === true) {
+//     sentence = `${sentence} studijuoja`;
+// } else {
+//     sentence = sentence + 'dirba'
+// }
 
+// isStudent === true ? (dirbaArStudijuoja = 'stufijuoja') : (dirbaArStudijuoja = 'dirba');
 
 console.log(sentence);
 
