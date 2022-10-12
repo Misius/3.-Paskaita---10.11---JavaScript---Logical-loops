@@ -43,3 +43,5 @@ if (day === 1) {
 } else {
     console.log('Nedarbo diena');
 }
+
+

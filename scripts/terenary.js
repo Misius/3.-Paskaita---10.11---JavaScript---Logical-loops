@@ -1,5 +1,5 @@
 'use strict'
-console.log(terenary.js);
+console.log('terenary.js');
 
 
 let sentence = '';
@@ -26,7 +26,7 @@ sentence = `${name} gyvena ${town} ir`;
 //     sentence = sentence + 'dirba'
 // }
 
-// isStudent === true ? (dirbaArStudijuoja = 'stufijuoja') : (dirbaArStudijuoja = 'dirba');
+// isStudent === true ? (dirbaArStudijuoja = 'studijuoja') : (dirbaArStudijuoja = 'dirba');
 
 console.log(sentence);
 
@@ -35,7 +35,10 @@ if (isStudent === true) {
 } else {
     // false
 }
+let isLoggedIn = false;
+let message = isLoggedIn === true ? 'You are currently logged in to the System.' : 'You are currently logged out.';
 
+console.log(message);
 
 // terenary
 // isStudent === true ? /*true*/ : /*flase*/;
